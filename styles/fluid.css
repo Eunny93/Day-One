@@ -67,11 +67,11 @@ section {
 }
 
 .hero {
-    background-image: url(../images/water/water_006.jpg);
+    /* background-image: url(../images/water/water_006.jpg); */
     border-top-right-radius: 2em;
     /* border: solid black 2px; */
 }
 
 .hero p {
-    width: 50%;
+    width: 90%;
 }
