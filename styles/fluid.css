@@ -1,0 +1,77 @@
+/* CSS Reset Properties*/
+body, main, article, section, header, footer {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav a {
+    flex-grow: 1;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    border: white 2px solid;
+    padding: 5px;
+}
+
+nav a:hover {
+    color: black;
+    background-color: white;
+}
+
+body{
+    padding: 100px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+}
+
+section {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5px;
+    /* background-attachment: fixed; */
+}
+/* individual class for section background images*/
+.em {
+    background-image: url(../images/water/water_001.jpg);
+    border: solid darkorange 1em;
+    font-size: 1.2em;
+}
+
+.rem {
+    background-image: url(../images/water/water_002.jpg);
+    border: dotted darkred .5rem;
+}
+
+.percent {
+    background-image: url(../images/water/water_003.jpg);
+}
+
+.percent p {
+    width: 75%;
+}
+
+.box {
+    background-image: url(../images/water/water_004.jpg);
+    box-sizing: border-box;
+    border: solid dodgerblue 3em;
+}
+
+.vw {
+    background-image: url(../images/water/water_005.jpg);
+    border: dashed 1vw;
+    font-size: 1vw;
+    box-sizing: border-box;
+}
+
+.hero {
+    background-image: url(../images/water/water_006.jpg);
+    border-top-right-radius: 2em;
+    /* border: solid black 2px; */
+}
+
+.hero p {
+    width: 50%;
+}
