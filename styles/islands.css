@@ -23,7 +23,7 @@ main section {
     padding: 20px;
 }
 
-/* the following classes will govern the sestions and make the work within */
+/* the following classes will govern the sestions and make the work within the grid */
 
 .item1 {
     grid-column-start: 1;
