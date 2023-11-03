@@ -1,0 +1,10 @@
+@media screen and (max-width:550px) {
+
+    nav li, body {
+        display: block;
+    }
+    
+    .loki {
+      width: auto;
+    }
+}

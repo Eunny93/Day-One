@@ -1,3 +1,41 @@
+.loki {
+    background-color: rgb(186, 207, 247);
+    width: 700px;
+    padding: 7px;
+    margin: 5px;
+    float: left;
+}
+
+.leroy {
+    display: inline-block;
+    color: darkslategrey;
+    vertical-align: top;
+    margin-left: 5px;
+    font-family: 'Space Mono', monospace;
+}
+
+.clear {
+    clear: both;
+}
+
+.leo {
+    background-color: rgb(149, 174, 196);
+    padding: 0px 5px 5px 0px;
+}
+
+.leo img {
+    vertical-align: top;
+    margin: 10px 5px 3px 6px;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.loki img {
+    width: 400px;
+}
+
 nav ul {
     text-align: center;
     list-style: none;
