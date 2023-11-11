@@ -59,3 +59,13 @@ main {
 .item7 {
     grid-area: bottom2;
 }
+
+@media screen and (max-width:580px) {
+    .pic6 {
+        height: 200px;
+    }
+
+    .pic2 {
+        height: 160px;
+    }
+}   

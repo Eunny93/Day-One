@@ -83,3 +83,16 @@ p {
 footer a {
     color:rgb(136, 129, 223);
 }
+
+@media screen and (max-width:580px) {
+    body{ 
+       background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../images/sj/sj-007.jpg);
+    }
+}
+
+@media screen and (min-width:1080px) {
+    body{ 
+        background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../images/wood.jpg);
+  
+}
+}

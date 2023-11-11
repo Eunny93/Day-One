@@ -134,6 +134,36 @@ main section {
     background-image: none;
 }
 
-.footer {
+footer {
     padding: 5px;
+}
+
+@media screen and (max-width:580px) {
+ header {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 12px;
+ }
+
+ .logo1 {
+    width: 150px;
+    height: 90px;
+}
+
+.pic6 {
+    height: 160px;
+}
+
+body,nav ul {
+    background-color: rgb(215, 250, 221);
+}
+
+}
+
+
+@media screen and (min-width:1080px) {
+    body,nav ul {
+        background-color: azure;
+    }
 }

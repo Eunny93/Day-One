@@ -46,3 +46,27 @@ h1 {
     font-size: 3em;
 }
 
+
+@media screen and (max-width:580px) {
+    header a {
+        display: block;
+    }
+    header,section, #lily {
+        background-color: rgb(4, 42, 33);
+
+    }
+    .biscuit {
+        color: rgb(4, 42, 33);
+    }
+}
+
+@media screen and (min-width:1080px) {
+    
+    header,section, #lily {
+        background-color: rgb(42, 4, 4);
+
+    }
+    .biscuit {
+        color: rgb(42, 4, 4);
+    }
+}

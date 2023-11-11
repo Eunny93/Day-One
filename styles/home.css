@@ -1,0 +1,54 @@
+
+nav ul {
+    text-align: center;
+    list-style: none;
+    background-color:#44a5b5;
+    margin-bottom: 15px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    padding: 9px;
+    display: block;
+    /* width: 100px; */
+    text-decoration: none;
+    background-color: #44a5b5;
+    color: white;
+}
+
+nav a:hover {
+    background-color: #344e5f;
+}
+
+@media screen and (max-width:580px) {
+    nav li, body {
+        display: block;
+    }
+    nav ul{
+        padding: 0%;
+        margin: 0%;
+    }
+
+    nav a {
+        background-color: rgb(243, 146, 1);
+    }
+
+    body {
+        background-color: bisque;
+    }
+}
+
+@media screen and (min-width:1080px) {
+
+    nav a, nav ul {
+        background-color: rgb(120, 176, 29);
+    }
+
+    body {
+        background-color: rgb(65, 107, 181);
+    }
+
+}
