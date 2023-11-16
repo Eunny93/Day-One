@@ -153,7 +153,7 @@ a:hover {
 -------------------------------------------------------------- */
 figure {
   margin: 0;
-  background: #f8f8f8;
+  /* background: #f8f8f8; */
 }
 
 figcaption {
@@ -165,6 +165,21 @@ code {
   padding: 0.5em;
   background: #efefef;
 }
+
+/* .poem {
+  font-size: 1em;
+  background-color: grey;
+  padding: 5px;
+  box-sizing: border-box;
+  color: white;
+}
+
+h1 {
+  color: red;
+}
+footer {
+  color: red;
+} */
 
 /* Helpers
 -------------------------------------------------------------- */
