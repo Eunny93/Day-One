@@ -1,0 +1,20 @@
+* {
+    margin: 0px;
+    padding: 0px;   
+}
+
+body { 
+    background: linear-gradient(#FBF7E7 20%, #E9A539 50%, #E97137 80%, #CC311B 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-sizing: border-box;
+    }
+
+header {
+    height: 150px;
+    background-color: #212F2E;
+    padding-top: 0;
+    margin-top: 0;
+    border-top: none;
+}
