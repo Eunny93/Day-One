@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 84.74 78.67">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #2e5a2e;
+      }
+
+      .cls-3 {
+        fill: #5f3220;
+      }
+    </style>
+  </defs>
+  <g id="_레이어_1" data-name="레이어 1">
+    <rect class="cls-1" width="84.74" height="78.67"/>
+    <rect class="cls-2" x="41.31" y="22.55" width="2.13" height="22.46"/>
+    <ellipse class="cls-2" cx="36.75" cy="20.02" rx="3.71" ry="7.27" transform="translate(2.2 43.64) rotate(-62.93)"/>
+    <ellipse class="cls-2" cx="48" cy="20.02" rx="7.27" ry="3.71" transform="translate(-3.85 24.03) rotate(-27.07)"/>
+    <path class="cls-3" d="m84.74,45.43v33.24H0v-33.24c10.88-7.07,25.37-11.46,41.31-11.64.35-.01.71-.01,1.06-.01s.71,0,1.07.01c15.94.18,30.42,4.56,41.3,11.64Z"/>
+  </g>
+</svg>

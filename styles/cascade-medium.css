@@ -25,18 +25,18 @@ body {
     padding-bottom: .6em;
 }
 
-nav li {
+.nav2 li {
     display: inline-block;
 }
 
-nav a, nav a:link, nav a:visited {
+.nav2 a, .nav2 a:link, .nav2 a:visited {
     padding: 1em;
     display: inline;
     width: 100%;
     border: 1px solid #44a5b5;
 }
 
-nav ul {
+.nav2 ul {
     padding: 1.1em;
     margin-top: .7em;
 }

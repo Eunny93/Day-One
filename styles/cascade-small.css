@@ -29,7 +29,7 @@ header {
     float: none;
 }
 
-nav ul {
+.nav2 ul {
     text-align: center;
     list-style: none;
     background-color: #44a5b5;
@@ -37,11 +37,11 @@ nav ul {
     padding: 0;
 }
 
-nav li {
+.nav2 li {
     display: block;
 }
 
-nav a, nav a:link, nav a:visited {
+.nav2 a, .nav2 a:link, .nav2 a:visited {
     margin: auto;
     padding: .7em;
     display: block;
@@ -52,7 +52,7 @@ nav a, nav a:link, nav a:visited {
     border: 1px solid white;
 } 
 
-nav a:hover {
+.nav2 a:hover {
     background-color: #344e5f;
     color: white;
 }

@@ -13,7 +13,7 @@ body, header, main, footer, section, article, aside {
     font-size: 16px;
 }
 
-main, header, nav ul, footer {
+main, header, .nav2 ul, footer {
     display: grid;
     grid-template-columns: 33% 33% 33%;
     /* background-color: lightgrey; */
@@ -76,7 +76,7 @@ header {
     margin: 10px auto;
 }
 
-header a, header p, nav a {
+header a, header p, .nav2 a {
     color: var(--blue);
     text-decoration: none;
 }
@@ -95,17 +95,17 @@ h1 {
     text-shadow: #074817 3px 3px 3px;
 }
 
-nav ul {
+.nav2 ul {
     background-color: var(--white);
 }
 
-nav ul li {
+.nav2 ul li {
     list-style-type: none;
     text-align: center;
     height: 100px;
 }
 
-nav ul li:hover {
+.nav2 ul li:hover {
     background-color: var(--green);
     color: var(--white);
 }
@@ -155,7 +155,7 @@ footer {
     height: 160px;
 }
 
-body,nav ul {
+body,.nav2 ul {
     background-color: rgb(215, 250, 221);
 }
 
@@ -163,7 +163,7 @@ body,nav ul {
 
 
 @media screen and (min-width:1080px) {
-    body,nav ul {
+    body,.nav2 ul {
         background-color: azure;
     }
 }

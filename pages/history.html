@@ -8,16 +8,39 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	    <link href="../styles/mobile-nav.css" rel="stylesheet" type="text/css">
+
 	</head>
 	<body>
-		<header>
+		<nav class="navbar">
+			<div class="page-title"><p>Histoy of the Internet</p></div>
+			<a href="#" class="toggle-button">
+				<span class="bar"></span>
+				<span class="bar"></span>
+				<span class="bar"></span>
+			</a>
+			<div class="navbar-links">
+				<ul>
+					<li><a href="../pages/index2.html"  target="_blank"> Home</a></li>
+					<li><a href="../pages/history.html"  target="_blank"> History</a></li>
+					<li><a href="../pages/stew.html"  target="_blank"> Stew</a></li>
+					<li><a href="../pages/theater2.html"  target="_blank"> Theater</a></li>
+					<li><a href="../pages/cascade.html"  target="_blank"> Cascade</a></li>
+					<li><a href="../pages/fluid.html"  target="_blank"> Fluid</a></li>
+					<li><a href="../pages/lopez.html"  target="_blank"> Lopez</a></li>
+					<li><a href="../pages/orcas.html"  target="_blank"> Orcas</a></li>
+					<li><a href="#"  target="_blank"> page six</a></li>
+				</ul>
+			</div>
+		</nav>
+		<!-- <header>
 			<a href="../pages/index2.html" target="_blank"> Home </a>
 			<a href="../pages/theater2.html" target="_blank"> Theater Bill </a>
 			<a href="../pages/stew.html" target="_blank"> Stew Recipe </a>
 			<a href="../pages/cascade.html" target="_blank"> Cascade</a>
 			<a href="#lily">jump to bottom</a>
 		</header>
-  	
+  	 -->
 	<main>
     	<section 
 		data-aos="fade-up"
@@ -122,5 +145,6 @@
    <script>
 	  AOS.init();
    </script>
+    <script src="../scripts/mobile-nav.js"></script>
 </body>
 </html>

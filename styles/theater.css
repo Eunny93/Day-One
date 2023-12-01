@@ -26,17 +26,17 @@ header {
     background-color: rgb(250, 250, 244);
 }
 
-nav p {
+.nav2 p {
     display: flex;
     flex-grow: 1;
     justify-content: center;
     color: darkslategray;
 }
-nav p:hover {
+.nav2 p:hover {
     color:blue;
 }
 
-nav, main, footer {
+.nav2, main, footer {
     color: white;
     display: flex;
     width: 70%;

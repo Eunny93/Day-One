@@ -37,18 +37,18 @@ h1 {
     width: 400px;
 }
 
-nav ul {
+.nav2 ul {
     text-align: center;
     list-style: none;
     background-color:#44a5b5;
     margin-bottom: 15px;
 }
 
-nav li {
+.nav2 li {
     display: inline-block;
 }
 
-nav a {
+.nav2 a {
     padding: 9px;
     display: block;
     /* width: 100px; */
@@ -57,6 +57,6 @@ nav a {
     color: white;
 }
 
-nav a:hover {
+.nav2 a:hover {
     background-color: #344e5f;
 }
